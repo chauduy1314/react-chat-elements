@@ -44,11 +44,7 @@ export class FileMessage extends React.PureComponent {
             <div className='rce-mbox-file'>
                 <button onClick={this.onClick.bind(this)}>
                     <div className="rce-mbox-file--icon">
-                        <FaFile
-                            color='#aaa'/>
-                        <div className="rce-mbox-file--size">
-                            {this.props.data.size}
-                        </div>
+                        <i class="fas fa-file-word"></i>
                     </div>
                     <div className="rce-mbox-file--text">
                         {this.props.text}
